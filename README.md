@@ -2,8 +2,11 @@
 Augmented reality based application using Python, numpy and OpenCV
 
 > Make Sure You Run these Commands in Terminal (or have it installed already)
-> * pip install opencv-python
-
+> `pip install opencv-python`
+> `pip install numpy`
+> `pip install easydict`
+> `pip install objloader`
+> *I have worked using python 3.7, different versions can demand other libraries and a slightly different code*
 
 ## Usage
 
@@ -20,4 +23,17 @@ Augmented reality based application using Python, numpy and OpenCV
 * `--matches`, `-m`: Draws matches between reference surface and video frame.
 
 
+# Scope 
+* to project in a screen a 3D model of a figure whose position and orientation matches the position and orientation of some predefined flat surface.
+* to do it in real time, so that if the surface changes its position or orientation the projected model does so accordingly.
 
+### This can be done integrating the task:
+1.  Recognize the reference flat surface.
+2.  Estimate the homography.
+3.  Derive from the homography the transformation from the reference surface coordinate system to the target image coordinate system.
+4.  Project our 3D model in the image (pixel space) and draw it.
+
+For each step there could be many amazing algorithms implementing various methods of
+* feature detection,description and matching
+* estimation of homography and projection
+feel free to choose any !!! 
