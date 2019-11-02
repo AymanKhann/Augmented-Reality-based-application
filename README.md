@@ -2,10 +2,12 @@
 Augmented reality based application using Python, numpy and OpenCV
 
 > Make Sure You Run these Commands in Terminal (or have it installed already)
-> `pip install opencv-python`
-> `pip install numpy`
-> `pip install easydict`
-> `pip install objloader`
+ ```
+ pip install opencv-python
+ pip install numpy
+ pip install easydict
+ pip install objloader
+ ```
 > *I have worked using python 3.7, different versions can demand other libraries and a slightly different code*
 
 ## Usage
@@ -36,4 +38,5 @@ Augmented reality based application using Python, numpy and OpenCV
 For each step there could be many amazing algorithms implementing various methods of
 * feature detection,description and matching
 * estimation of homography and projection
-feel free to choose any !!! 
+
+***feel free to choose any !!!***
